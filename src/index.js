@@ -7,9 +7,7 @@ import TrafficLight from './components/TrafficLight';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TrafficLight color='red'></TrafficLight>
-    <TrafficLight color='yellow'></TrafficLight>
-    <TrafficLight color='green'></TrafficLight>
+    <TrafficLight></TrafficLight>
   </React.StrictMode>,
   document.getElementById('root')
 );
