@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TrafficLight from './components/TrafficLight';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TrafficLight color='red'></TrafficLight>
+    <TrafficLight color='yellow'></TrafficLight>
+    <TrafficLight color='green'></TrafficLight>
   </React.StrictMode>,
   document.getElementById('root')
 );
