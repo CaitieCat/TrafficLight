@@ -3,6 +3,8 @@
 A small card component of a traffic light created using React. The card changes light colors to cycle through green, yellow, red, as a real traffic light does.
 
 
+!["Gif of component"](https://github.com/CaitieCat/TrafficLight/blob/main/images/TrafficLight.gif?raw=true)
+
 
 ## Available Scripts
 
