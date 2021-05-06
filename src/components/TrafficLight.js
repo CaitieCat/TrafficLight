@@ -4,8 +4,8 @@ import './trafficLight.css';
 
 export default function TrafficLight() {
     //set initial mode and create array to loop through
-    const [ mode, setMode ] = useState('RED');
-    const cycle = ['RED', 'YELLOW', 'GREEN'];
+    const [ mode, setMode ] = useState('GREEN');
+    const cycle = ['GREEN', 'YELLOW', 'RED'];
 
     //function to change the state and color of light being displayed (could be pulled out to helper file if app expanded)
     function setIndex(index){
