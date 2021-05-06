@@ -1,6 +1,6 @@
 # Traffic Light Card Component
 
-A small card component of a traffic light created using React. The card changes light colors to cycle through green, yellow, red, as a real traffic light does. Hosted [here](https://git.heroku.com/traffic-light-component.git)!
+A small card component of a traffic light created using React. The card changes light colors to cycle through green, yellow, red, as a real traffic light does. Hosted [here](https://traffic-light-component.herokuapp.com/)!
 
 
 !["Gif of component"](https://github.com/CaitieCat/TrafficLight/blob/main/images/TrafficLight.gif?raw=true)
