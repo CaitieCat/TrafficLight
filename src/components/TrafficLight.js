@@ -7,7 +7,7 @@ export default function TrafficLight() {
     const [ mode, setMode ] = useState('RED');
     const cycle = ['RED', 'YELLOW', 'GREEN'];
 
-    //function to change the state and color of light being displayed
+    //function to change the state and color of light being displayed (could be pulled out to helper file if app expanded)
     function setIndex(index){
         if (index === 2){
             index = 0;
@@ -30,33 +30,33 @@ export default function TrafficLight() {
     //conditionally render each light color based on the state of the component
     if(mode === 'RED'){
         return(
-            <div class='red'>
-                <div class='trafficLight'>
-                        <div class='redCircle'></div>
-                        <div class='greyCircle'></div>
-                        <div class='greyCircle'></div>
+            <div className='red'>
+                <div className='trafficLight'>
+                        <div className='redCircle'></div>
+                        <div className='greyCircle'></div>
+                        <div className='greyCircle'></div>
                 </div>
                 <h1>The light is red.</h1>
             </div>
         )
     } else if (mode === 'YELLOW'){
         return(
-            <div class='yellow'>
-                <div class='trafficLight'>
-                    <div class='greyCircle'></div>
-                    <div class='yellowCircle'></div>
-                    <div class='greyCircle'></div>
+            <div className='yellow'>
+                <div className='trafficLight'>
+                    <div className='greyCircle'></div>
+                    <div className='yellowCircle'></div>
+                    <div className='greyCircle'></div>
                 </div>
                 <h1>The light is yellow.</h1>
             </div>
         )
     } else if (mode === 'GREEN'){
         return(
-            <div class='green'>
-                <div class='trafficLight'>
-                    <div class='greyCircle'></div>
-                    <div class='greyCircle'></div>
-                    <div class='greenCircle'></div>
+            <div className='green'>
+                <div className='trafficLight'>
+                    <div className='greyCircle'></div>
+                    <div className='greyCircle'></div>
+                    <div className='greenCircle'></div>
                 </div>
                 <h1>The light is green.</h1>
             </div>
