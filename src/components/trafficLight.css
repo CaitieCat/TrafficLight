@@ -34,6 +34,13 @@ body{
     border-radius: 5px;
 }
 
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 .trafficLight{
     width: 74px;
     height: 144px;
@@ -49,13 +56,6 @@ body{
     background-color: white;
     border: 1px solid #8E7004;
     border-radius: 6px;
-}
-
-h1{
-    font-family: 'Roboto', sans-serif;
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
 }
 
 .redCircle{
